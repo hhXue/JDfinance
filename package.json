@@ -1,0 +1,168 @@
+{
+  "name": "JDFinance",
+  "version": "1.0.0",
+  "description": "component with vue 2.5 and es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --env.production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/imooc/vuejs.git"
+  },
+  "keywords": [
+    "es6",
+    "component"
+  ],
+  "author": "cuc_ygh@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/imooc/vuejs/issues"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "extends": [
+      "mysticatea",
+      "mysticatea/modules",
+      "plugin:vue/recommended"
+    ],
+    "plugins": [
+      "node"
+    ],
+    "env": {
+      "browser": false
+    },
+    "globals": {
+      "applicationCache": false,
+      "atob": false,
+      "btoa": false,
+      "console": false,
+      "document": false,
+      "location": false,
+      "window": false
+    },
+    "rules": {
+      "node/no-extraneous-import": "error",
+      "node/no-missing-import": "error",
+      "node/no-unpublished-import": "error",
+      "vue/html-indent": [
+        "error",
+        4
+      ],
+      "vue/max-attributes-per-line": "off"
+    }
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "webpack.config.js"
+  ],
+  "homepage": "https://gitlab.com/imooc/vuejs#README",
+  "dependencies": {
+    "abbrev": "^1.1.1",
+    "ajv": "^6.1.1",
+    "aproba": "^1.2.0",
+    "are-we-there-yet": "^1.1.4",
+    "asn1": "^0.2.3",
+    "assert-plus": "^1.0.0",
+    "async-foreach": "^0.1.3",
+    "asynckit": "^0.4.0",
+    "aws-sign2": "^0.7.0",
+    "aws4": "^1.6.0",
+    "bcrypt-pbkdf": "^1.0.1",
+    "block-stream": "^0.0.9",
+    "boom": "^7.1.1",
+    "caseless": "^0.12.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "combined-stream": "^1.0.5",
+    "console-control-strings": "^1.1.0",
+    "cryptiles": "^4.1.1",
+    "css-hot-loader": "^1.3.4",
+    "css-loader": "^0.28.7",
+    "dashdash": "^1.14.1",
+    "delayed-stream": "^1.0.0",
+    "delegates": "^1.0.0",
+    "dom7": "^2.0.1",
+    "ecc-jsbn": "^0.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "extsprintf": "^1.4.0",
+    "forever-agent": "^0.6.1",
+    "form-data": "^2.3.1",
+    "fstream": "^1.0.11",
+    "gauge": "^2.7.4",
+    "gaze": "^1.1.2",
+    "generate-function": "^2.0.0",
+    "generate-object-property": "^1.2.0",
+    "getpass": "^0.1.7",
+    "globule": "^1.2.0",
+    "har-schema": "^2.0.0",
+    "har-validator": "^5.1.0",
+    "has-unicode": "^2.0.1",
+    "hawk": "^7.0.6",
+    "hoek": "^5.0.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "http-signature": "^1.2.0",
+    "in-publish": "^2.0.0",
+    "is-my-json-valid": "^2.17.1",
+    "is-property": "^1.0.2",
+    "is-typedarray": "^1.0.0",
+    "isstream": "^0.1.2",
+    "jsbn": "^1.1.0",
+    "json-schema": "^0.2.3",
+    "json-stringify-safe": "^5.0.1",
+    "jsonpointer": "^4.0.1",
+    "jsprim": "^2.0.0",
+    "lodash.assign": "^4.2.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.mergewith": "^4.6.1",
+    "nan": "^2.8.0",
+    "node-gyp": "^3.6.2",
+    "node-sass": "^4.7.2",
+    "nopt": "^4.0.1",
+    "npmlog": "^4.1.2",
+    "oauth-sign": "^0.8.2",
+    "osenv": "^0.1.4",
+    "performance-now": "^2.1.0",
+    "px2rem-loader": "^0.1.7",
+    "qs": "^6.5.1",
+    "request": "^2.83.0",
+    "sass-graph": "^2.2.4",
+    "sass-loader": "^6.0.6",
+    "scss-tokenizer": "^0.2.3",
+    "sntp": "^3.0.1",
+    "sshpk": "^1.13.1",
+    "stdout-stream": "^1.4.0",
+    "stringstream": "^0.0.5",
+    "style-loader": "^0.19.0",
+    "swiper": "^4.1.0",
+    "tar": "^4.3.2",
+    "tough-cookie": "^2.3.3",
+    "true-case-path": "^1.0.2",
+    "tunnel-agent": "^0.6.0",
+    "tweetnacl": "^1.0.0",
+    "uuid": "^3.2.1",
+    "verror": "^1.10.0",
+    "vue": "^2.5.9",
+    "vue-awesome-swiper": "^3.1.2",
+    "vue-loader": "^13.5.0",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5",
+    "wide-align": "^1.1.2",
+    "write-file-webpack-plugin": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-mysticatea": "^12.0.0",
+    "eslint-plugin-vue": "^4.0.0-beta.2",
+    "vue-eslint-parser": "^2.0.1-beta.2"
+  }
+}
