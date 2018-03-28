@@ -1,6 +1,7 @@
 ### 组件式开发
 
-```文件app目录
+##### 文件app目录
+```
 ├── css  //css抽象
 │   ├── element.scss
 │   ├── layout.scss
